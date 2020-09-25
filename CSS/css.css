@@ -1,0 +1,237 @@
+/* Mesteparten av det som er fra topnav til topnav.icon er kopiert fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav */
+
+
+.topnav{
+    overflow: hidden;
+    background-color: #545058;  
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 7px 8px; /*-- brukte å vere 7px 8px*/
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Uncial Antiqua', cursive;
+}
+.topnav a:hover{
+    background-color: black;
+}
+.topnav a.active{
+    background-color: #792427;
+    color:white;
+}
+.topnav .icon {
+    display: none;
+  }
+.felles{
+    font-weight: bold;
+}
+.maindiv{
+        border: 0px solid black;
+        position: absolute;
+        width: 74%;
+        height: fit-content;
+        margin: auto;
+        left: 20px;
+}
+#sourcediv{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 29px;
+    right: 5px;
+}
+#sourcediv2{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 165px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv3{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 301px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv4{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 437px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv5{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 573px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv6{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 709px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv7{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 104px;
+    left: 845px; /* add 136px to next div*/
+    right: 5px;
+}
+#sourcediv8{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 0px;
+    left: 104%;
+    right: 5px;
+}
+#MapOverWandE{
+    width: 100%;
+    border-radius: 5%       ;
+}
+#dragonstoneimg{
+    border-radius: 5%;
+}
+#sourcediv9{
+    border: 1px solid black;
+    width: 110px;
+    height: 214px;
+    padding: 10px;
+    position: absolute;
+    bottom: auto;
+    top: 0px;
+    left: 209%;
+}
+.datetext{
+    font-size: 11px;
+    position: absolute;
+    top: 60px;
+    right: 6px;
+}
+#websideiconsource{
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 4px;
+}
+#georgeimg{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-radius: 45%;
+
+}
+#georgediv{
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
+    left: 100px;
+    padding: 10px;
+}
+#grrimg{
+    width: 100px;
+    padding: 4px;
+    border-radius: 45%;
+}
+#ASOIAFDIV{
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
+    right: 3.7%;
+    top: 10%;
+    padding: 10px;
+    text-align: center;
+}
+#map{
+    width: 130%;
+}
+#targsigil{
+    width: 20%; 
+    position: absolute;   
+    left: 105%;
+}
+#targsigil2{
+    width: 100px;
+    padding: 4px;
+}
+.link{
+    color: #792427;
+}
+.link2{
+    color: #2B818E;
+}
+.cityname{
+   font-size: 250%;
+}
+.cityimg{
+    width: 130%;
+    border: 10px ridge #2B818E;  
+}
+p{
+    font-style: italic;
+    font-size: large;
+    color: #2B818E;
+}
+h2{
+    font-size: larger;
+    color: #2B818E;
+    font-style: italic;
+}
+h1{
+    color: #2B818E;
+    font-style: italic;
+}
+body{
+    background-color: #F9E9D0;
+}
+
+/*Dette er kopiert fra nettet (isak viste meg det så jeg vet ikke helt hvor der kommer fra*/
+body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+  body::-webkit-scrollbar-track {
+    background: black;
+}
+
+  body::-webkit-scrollbar-thumb {
+    background: #545058;
+}
